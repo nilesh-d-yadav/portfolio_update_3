@@ -41,6 +41,12 @@ function Projects() {
           h3={"Bill Buster"}
           p={"Bill Splitting App"}
         />
+        <ProjectCard
+          img={"https://www.syte.ai/wp-content/uploads/2021/05/Product-Filters_blog-1-2048x1251.jpg.webp"}
+          link={"https://filtering-system-two.vercel.app/"}
+          h3={"Advanced Filtering"}
+          p={"Filter Products"}
+        />
       </div>
     </section>
   );
