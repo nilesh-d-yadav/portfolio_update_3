@@ -10,7 +10,7 @@ import github_dark from "../../assets/github-dark.svg";
 import linkedin_light from "../../assets/linkedin-light.svg";
 import linkedin_dark from "../../assets/linkedin-dark.svg";
 
-import CV from "../../assets/Nilesh_Yadav_Resume.pdf";
+import CV from "../../assets/Nilesh_Yadav_ReactJs.pdf";
 import { useTheme } from "../../common/ThemeContext.jsx";
 
 function Hero() {
