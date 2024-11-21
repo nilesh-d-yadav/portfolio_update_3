@@ -4,6 +4,7 @@ import lawFirm from "../../assets/lawFirm2.jpg";
 import furnitureImg from "../../assets/furnitureImg.jpg";
 import billSplit from "../../assets/splitter.jpg";
 import ideaStartup from "../../assets/startupIdea.jpg";
+import aiMock from "../../assets/aiMock.jpg";
 
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
@@ -11,6 +12,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          img={aiMock}
+          link={"https://rehearse-ai.vercel.app/"}
+          h3={"ReherseAI"}
+          p={"AI Mock Interview App"}
+        />
         <ProjectCard
           img={ideaStartup}
           link={"https://start-up-ideas.vercel.app/"}
@@ -40,12 +47,6 @@ function Projects() {
           link={"https://billbuster.netlify.app/"}
           h3={"Bill Buster"}
           p={"Bill Splitting App"}
-        />
-        <ProjectCard
-          img={"https://www.syte.ai/wp-content/uploads/2021/05/Product-Filters_blog-1-2048x1251.jpg.webp"}
-          link={"https://filtering-system-two.vercel.app/"}
-          h3={"Advanced Filtering"}
-          p={"Filter Products"}
         />
       </div>
     </section>
