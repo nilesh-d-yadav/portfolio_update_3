@@ -9,11 +9,12 @@ function Skills() {
         <SkillList checkMarkIcon={checkMarkIcon} skill={"HTML"} />
         <SkillList checkMarkIcon={checkMarkIcon} skill={"JavaScript"} />
         <SkillList checkMarkIcon={checkMarkIcon} skill={"C++"} />
-        <SkillList checkMarkIcon={checkMarkIcon} skill={"Python"} />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList checkMarkIcon={checkMarkIcon} skill={"React"} />
+        <SkillList checkMarkIcon={checkMarkIcon} skill={"ReactJs"} />
+        <SkillList checkMarkIcon={checkMarkIcon} skill={"NextJs"} />
+
         <SkillList checkMarkIcon={checkMarkIcon} skill={"CSS"} />
         <SkillList checkMarkIcon={checkMarkIcon} skill={"Tailwind CSS"} />
         <SkillList checkMarkIcon={checkMarkIcon} skill={"Bootstrap"} />
@@ -29,7 +30,7 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList checkMarkIcon={checkMarkIcon} skill={"Firebase"} />
-        <SkillList checkMarkIcon={checkMarkIcon} skill={"Drizzler"} />
+        <SkillList checkMarkIcon={checkMarkIcon} skill={"Drizzle ORM"} />
         <SkillList checkMarkIcon={checkMarkIcon} skill={"SQL"} />
         <SkillList checkMarkIcon={checkMarkIcon} skill={"MongoDB"} />
         <SkillList checkMarkIcon={checkMarkIcon} skill={"Git & Github"} />
